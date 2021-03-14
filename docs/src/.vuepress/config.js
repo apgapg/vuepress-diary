@@ -1,6 +1,7 @@
 const { description } = require('../../package')
 
 module.exports = {
+  base: '/vuepress-diary/',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
@@ -27,11 +28,14 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    repo: '',
-    editLinks: false,
-    docsDir: '',
-    editLinkText: '',
-    lastUpdated: false,
+    repo: 'https://github.com/apgapg/vuepress-diary',
+    repoLabel: "Contribute!",
+    editLinks: true,
+    editLinkText: "Help us improve this page!",
+    smoothScroll: true,
+    docsBranch: "main",
+    docsDir: "docs/src",
+    lastUpdated: "Last Updated", // string | boolean
     nav: [
       {
         text: 'Guide',
