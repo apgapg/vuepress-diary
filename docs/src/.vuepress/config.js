@@ -66,6 +66,11 @@ module.exports = {
           children: ["/guide/daily-journel/march-2021"],
         },
         {
+          title: "My Thoughts",
+          collapsable: false,
+          children: ["/guide/thoughts/astrophile"],
+        },
+        {
           title: "My Paintings",
           collapsable: false,
           children: ["/guide/paintings/dream-bike"],
