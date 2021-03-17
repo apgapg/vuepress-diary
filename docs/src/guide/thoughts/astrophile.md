@@ -26,7 +26,7 @@ Today our children are more busy with those grey color devices where the use of 
 
 ## The beginning
 
-After i dwelt more into voyager i came to know that the current speed of Voyager 1 is about 27.2 Km/sec.  
+After i dwelt more into voyager i came to know that the current speed of Voyager 1 is about **27.2 Km/sec**.  
 Can you just imagine how large is it?
 
 It is covering 27 Km every tick of the clock. Such a huge velocity which would just take few seconds to reach anywhere in the world. Once I was imagining what feeling it would be to sit on this voyager with such enormous speed? But then I realise its a quite lonely journey with no mass surrounding, and its paving through the darkness of the space.
@@ -36,5 +36,16 @@ It is covering 27 Km every tick of the clock. Such a huge velocity which would j
 The twins were set off for a long never come back journey on 5 sept 1977 (Voyager 1) and its still 40+ years of active communication.
 
 ::: tip Fun Fact
-Do you know it takes around 20 hrs for signal to reach from end to another ie from earth to voyager and vice versa. Its just huge time even though signal travels at light speed which is 3 lac Km/s.
+Do you know it takes around **20 hrs** for signal to reach from end to another ie from earth to voyager and vice versa. Its just huge time even though signal travels at light speed which is **3 lac Km/s**.
 :::
+
+The mission aim was to study the distant planets of our solar system ie Saturn, Uranus, Neptune. Its said that the planet position were the best at that time to reach these planets. Both the space craft successfully completed their mission and because of their performance the mission was extended beyond that to study outer solar system.
+
+Some  peculiar features of Voyager mission are:
+
+## Gravity assist technique
+
+Gravity assist or sling shot was the first ever technique used in real on voyagers to boost up their speed in their journey. As we all know we have a constraint on max speed that can be given to space craft, hence to cut out the travel time, voyagers were made to boost up their speed with the help of gravity assist of Jupiter. This caused the speed to multiply also leading to deviation in their path followed.  
+
+This is a very critical step, as slight mistake would cause space craft to either embed in the planet itself or is too far away to utilise gravity assist. Indeed what a great engineers mindset behind it. Hats Off!!!!
+
