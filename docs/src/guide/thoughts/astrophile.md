@@ -16,4 +16,25 @@ Thereafter I explored some later missions like New Horizon, Cassini, Hubble Spac
 
 ## Education System
 
-The most heart breaking thing that i feel about our current education system is the missing astronomy syllabus and the enthusiastic teachers
+The most heart breaking thing that I feel about our current education system is the missing astronomy syllabus and the enthusiastic teachers. Astronomy is the most interesting subject which is generally fascinating to young students. This subject's application can be easily seen in real life by just waiting for sun to dusk.
+
+I remember a quote from a great physicist:
+
+![a5ba264536cfc68ee58836e5440890ba](https://user-images.githubusercontent.com/13887407/111492703-e8f75480-8762-11eb-9d6e-712b7c79cff8.jpeg)
+
+Today our children are more busy with those grey color devices where the use of brain is considered illegal. Isn't its the best if our children could know more about missions, galaxies, pulsars, black hole? Don't know if that day would come or not but I am sure I wouldn't miss the journey
+
+## The beginning
+
+After i dwelt more into voyager i came to know that the current speed of Voyager 1 is about 27.2 Km/sec.  
+Can you just imagine how large is it?
+
+It is covering 27 Km every tick of the clock. Such a huge velocity which would just take few seconds to reach anywhere in the world. Once I was imagining what feeling it would be to sit on this voyager with such enormous speed? But then I realise its a quite lonely journey with no mass surrounding, and its paving through the darkness of the space.
+
+## Voyager 1 & 2
+
+The twins were set off for a long never come back journey on 5 sept 1977 (Voyager 1) and its still 40+ years of active communication.
+
+::: tip Fun Fact
+Do you know it takes around 20 hrs for signal to reach from end to another ie from earth to voyager and vice versa. Its just huge time even though signal travels at light speed which is 3 lac Km/s.
+:::
