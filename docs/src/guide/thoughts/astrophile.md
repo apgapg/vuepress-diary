@@ -1,5 +1,7 @@
 # Astrophile
 
+<img src="https://user-images.githubusercontent.com/13887407/111866856-648d1780-8996-11eb-81e1-17a0759a3167.jpg"  height = "400" alt="Image">
+
 ## Meaning
 
 If you search for `Astrophile` you will come up with the following meaning:
@@ -35,6 +37,8 @@ It is covering 27 Km every tick of the clock. Such a huge velocity which would j
 
 The twins were set off for a long never come back journey on 5 sept 1977 (Voyager 1) and its still 40+ years of active communication.
 
+<img src="https://user-images.githubusercontent.com/13887407/111866891-9dc58780-8996-11eb-9ef8-dc38d6e46f50.jpg"  height = "400" alt="Image">
+
 ::: tip Fun Fact
 Do you know it takes around **20 hrs** for signal to reach from end to another ie from earth to voyager and vice versa. Its just huge time even though signal travels at light speed which is **3 lac Km/s**.
 :::
@@ -49,3 +53,4 @@ Gravity assist or sling shot was the first ever technique used in real on voyage
 
 This is a very critical step, as slight mistake would cause space craft to either embed in the planet itself or is too far away to utilise gravity assist. Indeed what a great engineers mindset behind it. Hats Off!!!!
 
+<img src="https://user-images.githubusercontent.com/13887407/111866944-e2512300-8996-11eb-9fd4-160b7d0f0c11.png"  height = "400" alt="Image">
