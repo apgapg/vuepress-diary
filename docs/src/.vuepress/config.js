@@ -61,9 +61,12 @@ module.exports = {
           ],
         },
         {
-          title: "Daily Journal",
+          title: "Daily Blogs",
           collapsable: false,
-          children: ["/guide/daily-journel/march-2021"],
+          children: [
+            "/guide/daily-blogs/connect-asana-and-github",
+            "/guide/daily-blogs/migrate-iit-jee-notes-to-vuepress",
+          ],
         },
         {
           title: "My Thoughts",
@@ -83,7 +86,7 @@ module.exports = {
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
   plugins: [
-    '@vuepress/back-to-top',
+    "@vuepress/back-to-top",
     "@vuepress/plugin-medium-zoom",
     [
       "sitemap",
