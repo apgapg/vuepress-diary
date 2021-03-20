@@ -1,5 +1,7 @@
 # Connect Asana and Github <Badge text="Tech"/>
 
+![asana-github-integration](https://user-images.githubusercontent.com/13887407/111866649-ee3be580-8994-11eb-9063-d185e1743bc2.jpg)
+
 ## Background 
 
 _20 March 2021_
@@ -11,6 +13,8 @@ This created difficulties sometimes as we forget to update task with relevant co
 ## Solution
 
 Recently i came to know about [Github Action for Asana](https://github.com/marketplace/actions/asana-git). This helped me to atleast comment on Asana task that I have raised Pull Request (PR), automatically whenever I raise PR.
+
+![Screenshot from 2021-03-20 16-00-23](https://user-images.githubusercontent.com/13887407/111866711-6d311e00-8995-11eb-9479-40ea8f49923e.png)
 
 Again this didnt fully fulfill my purpose. I wanted to comment merged PR also whenever a PR is merged or closed. Hence I forked the respository and edited the action to support commenting PR merged status also. (If you want to checkout the source code, see [apgapg/github-asana-action](https://github.com/apgapg/github-asana-action)).
 
