@@ -1,10 +1,10 @@
 # Connect Asana and Github <Badge text="Tech"/>
 
+_20 March 2021_
+
 ![asana-github-integration](https://user-images.githubusercontent.com/13887407/111866649-ee3be580-8994-11eb-9063-d185e1743bc2.jpg)
 
 ## Background 
-
-_20 March 2021_
 
 At my workplace, we use [Github]() as Version Control System (VCS), and [Asana]() for project task management. Everytime we start any task we need to manually comment its status until completion. 
 
