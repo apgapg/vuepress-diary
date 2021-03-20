@@ -101,5 +101,6 @@ module.exports = {
         hostname: "https://apgapg.github.io/vuepress-diary/",
       },
     ],
+    ['seo', { /* options */ }]
   ],
 };
