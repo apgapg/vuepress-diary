@@ -61,11 +61,18 @@ module.exports = {
           ],
         },
         {
-          title: "Daily Blogs",
+          title: "Tech Blogs",
           collapsable: false,
           children: [
-            "/guide/daily-blogs/connect-asana-and-github",
-            "/guide/daily-blogs/migrate-iit-jee-notes-to-vuepress",
+            "/guide/tech-blogs/connect-asana-and-github",
+            "/guide/tech-blogs/migrate-iit-jee-notes-to-vuepress",
+          ],
+        },
+        {
+          title: "DIY Blogs",
+          collapsable: false,
+          children: [
+            "/guide/diy-blogs/speed-o-meter",
           ],
         },
         {
