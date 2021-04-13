@@ -20,7 +20,7 @@ This minor introduction helped our Flutter team a lot in sense to atleast auto-c
 
 ![Screenshot from 2021-03-20 16-00-23](https://user-images.githubusercontent.com/13887407/111866711-6d311e00-8995-11eb-9479-40ea8f49923e.png)
 
-## Caevats
+## Caveats
 
 Again this didnt fully fulfill my purpose. I wanted to comment about **Merged PR** also whenever a PR is merged or closed.  
 Hence I forked the respository and edited the action to support commenting PR merged status also. 
