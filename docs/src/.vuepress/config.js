@@ -74,6 +74,7 @@ module.exports = {
           collapsable: false,
           children: [
             "/guide/diy-blogs/speed-o-meter",
+            "/guide/diy-blogs/replacing-car-door-gun",
           ],
         },
         {

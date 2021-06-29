@@ -1,10 +1,10 @@
 # Replacing Speed-o-Meter
 
-_20 March 2021_
+_Created At: 20 March 2021_
 
 ## Background
 
-I have a 1993 Yamaha Rx100 model. Currently it has run about 92746 Kms, but since last month its speed-o-meter is jammed. 
+I have a 1993 Yamaha Rx100 model. Currently it has run about 92746 Kms, but since last month its speed-o-meter is jammed.
 Hence I tried fixing it.
 
 <img src="https://user-images.githubusercontent.com/13887407/111876364-5a820d80-89c4-11eb-9e2a-2608d190985a.jpg"  height = "400" alt="Image">
