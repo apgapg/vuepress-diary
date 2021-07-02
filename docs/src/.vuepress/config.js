@@ -85,7 +85,10 @@ module.exports = {
         {
           title: "My Paintings",
           collapsable: false,
-          children: ["/guide/paintings/dream-bike"],
+          children: [
+            "/guide/paintings/dream-bike",
+            "/guide/paintings/kid-yawning",
+          ],
         },
       ],
     },

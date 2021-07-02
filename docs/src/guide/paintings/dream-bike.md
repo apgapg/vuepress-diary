@@ -1,8 +1,8 @@
 # Dream Bike
 
-_19 May 2019_
+_Created At: 19 May 2019_
 
-<img :src="$withBase('/bike.jpg')" alt="foo" style="max-height:600px;">
+<img :src="$withBase('/bike.jpg')" alt="Image" style="max-height:600px;">
 
 ## Motivation
 
