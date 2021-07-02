@@ -2,7 +2,7 @@
 
 _Created At: 29 June 2021_
 
-![Image](/door/i1.jpg)
+<img :src="$withBase('/door/i1.jpg')" alt="Image">
 
 ## Background
 
@@ -17,7 +17,7 @@ This needed to be urgently fixed as I wasnt able to lock the car. Hence i picked
 I took out the lock gun and tried to pull out the lock arm but it was freezed.
 So the cause was this faulty gun and probably its internal gears were jammed.
 
-![Image](/door/i3.jpg)
+<img :src="$withBase('/door/i3.jpg')" alt="Image">
 
 ## Repair
 
@@ -25,7 +25,7 @@ After oiling and a bit of hitting hard the gears were free, and the motor arm co
 
 Yay! I fixed it on my own.
 
-![Image](/door/i4.jpg)
+<img :src="$withBase('/door/i4.jpg')" alt="Image">
 
 ## Failure
 
@@ -38,7 +38,7 @@ On the very next day I went to spare parts market and to my surprise i wasnt abl
 
 I visited one and got it much cheaper costing only Rs 180. Also its the same in every car as it is a part of Central Locking System rather than car manufacturer itself.
 
-![Image](/door/i2.jpg)
+<img :src="$withBase('/door/i2.jpg')" alt="Image">
 
 ## Happy Ending
 
