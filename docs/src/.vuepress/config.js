@@ -62,6 +62,13 @@ module.exports = {
           ],
         },
         {
+          title: "Hindi Shayaris",
+          collapsable: false,
+          children: [
+            "/guide/hindi-shayari/aakhein-aur-sharab",
+          ],
+        },
+        {
           title: "Tech Blogs",
           collapsable: false,
           children: [
