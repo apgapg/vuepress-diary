@@ -46,6 +46,10 @@ module.exports = {
         link: "/guide/",
       },
       {
+        text: "Projects",
+        link: "/projects/",
+      },
+      {
         text: "About Me",
         link: "https://apgapg.github.io/",
       },
@@ -98,6 +102,16 @@ module.exports = {
           ],
         },
       ],
+      "/projects/":[
+        {
+          title: "Dev Projects",
+          collapsable: false,
+          children: [
+            "/projects/dev-projects/my-hindi-shayari",
+            "/projects/dev-projects/connect-it",
+          ],
+        }
+      ]
     },
   },
 
