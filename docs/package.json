@@ -1,16 +1,17 @@
 {
   "name": "vuepress-diary",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Official Vuepress diary of Ayush P Gupta",
   "main": "index.js",
   "authors": {
     "name": "Ayush P Gupta",
     "email": "ayushpguptaapg@gmail.com"
   },
-  "repository": "/vuepress-diary",
+  "repository": "https://github.com/apgapg/my_hindi_shayari",
   "scripts": {
     "dev": "vuepress dev src",
-    "build": "vuepress build src"
+    "build": "vuepress build src",
+    "postbuild": "cp CNAME ./src/.vuepress/dist"
   },
   "license": "MIT",
   "devDependencies": {
