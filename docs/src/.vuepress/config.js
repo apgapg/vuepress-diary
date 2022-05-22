@@ -46,6 +46,10 @@ module.exports = {
         link: "/guide/",
       },
       {
+        text: "Blogs",
+        link: "/blogs/",
+      },
+      {
         text: "Projects",
         link: "/projects/",
       },
@@ -55,6 +59,24 @@ module.exports = {
       },
     ],
     sidebar: {
+      "/blogs/":[
+        {
+          title: "DIY Blogs",
+          collapsable: false,
+          children: [
+            "/blogs/diy-blogs/speed-o-meter",
+            "/blogs/diy-blogs/replacing-car-door-gun",
+          ],
+        },
+        {
+          title: "Tech Blogs",
+          collapsable: false,
+          children: [
+            "/blogs/tech-blogs/connect-asana-and-github",
+            "/blogs/tech-blogs/migrate-iit-jee-notes-to-vuepress",
+          ],
+        },
+      ],
       "/guide/": [
         {
           title: "Hindi Stories",
@@ -70,22 +92,7 @@ module.exports = {
           collapsable: false,
           children: [
             "/guide/hindi-shayari/aakhein-aur-sharab",
-          ],
-        },
-        {
-          title: "Tech Blogs",
-          collapsable: false,
-          children: [
-            "/guide/tech-blogs/connect-asana-and-github",
-            "/guide/tech-blogs/migrate-iit-jee-notes-to-vuepress",
-          ],
-        },
-        {
-          title: "DIY Blogs",
-          collapsable: false,
-          children: [
-            "/guide/diy-blogs/speed-o-meter",
-            "/guide/diy-blogs/replacing-car-door-gun",
+            ["https://www.ayushpgupta.com/my_hindi_shayari/","My Shayari Website"]
           ],
         },
         {

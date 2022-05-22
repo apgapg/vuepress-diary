@@ -1,15 +1,14 @@
 ---
 home: true
-heroImage: /cover.jpg
-tagline: Diary, Short Stories and much more
+tagline: Tech Blogs, Diary, Short Stories and much more
 actionText: Know More →
 actionLink: /guide/
-# features:
-# - title: Feature 1 Title
-#   details: Feature 1 Description
-# - title: Feature 2 Title
-#   details: Feature 2 Description
-# - title: Feature 3 Title
-#   details: Feature 3 Description
+features:
+- title: Flutter Developer
+  details: 4 years of Experience in Android, iOS app development. Leads a team of 8 flutter members 
+- title: VueJs (Nuxt) Developer
+  details: Expertise with Nuxt based website. Ported in ElectronJs to deployment in Kubernetes
+- title: NodeJs Developer
+  details: Knows the best practice in REST API. Loves Microservices over Monolith
 footer: Made by Ayush P Gupta with ❤️
 ---
