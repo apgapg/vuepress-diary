@@ -11,7 +11,9 @@
   "scripts": {
     "dev": "vuepress dev src",
     "build": "vuepress build src",
-    "postbuild": "cp CNAME ./src/.vuepress/dist"
+    "postbuild": "cp CNAME ./src/.vuepress/dist",
+    "deploy": "gh-pages -d ./src/.vuepress/dist",
+    "buildAndPublish": "npm run build && npm run deploy"
   },
   "license": "MIT",
   "devDependencies": {
