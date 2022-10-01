@@ -2,6 +2,8 @@
 
 _Created At: 20 March 2021_
 
+[[toc]]
+
 ## Background
 
 I have a 1993 Yamaha Rx100 model. Currently it has run about 92746 Kms, but since last month its speed-o-meter is jammed.
