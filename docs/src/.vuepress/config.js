@@ -74,6 +74,7 @@ module.exports = {
           children: [
             "/blogs/tech-blogs/connect-asana-and-github",
             "/blogs/tech-blogs/migrate-iit-jee-notes-to-vuepress",
+            "/blogs/tech-blogs/introduction-to-microservices",
           ],
         },
       ],
@@ -131,7 +132,7 @@ module.exports = {
     [
       "sitemap",
       {
-        hostname: "https://apgapg.github.io/vuepress-diary/",
+        hostname: "https://diary.ayushpgupta.com/",
       },
     ],
     ['seo', { /* options */ }]
