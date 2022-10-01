@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - run: npm ci && npm run build
+      - run: npm i && npm run build
         working-directory: ./docs
 
       - name: Build and Deploy
