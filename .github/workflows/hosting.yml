@@ -1,7 +1,9 @@
-name: Deploy to Firebase Hosting
+name: Deploy to Github Pages
 on:
   push:
     branches: [ main ]
+permissions:
+  contents: write
 
 jobs:
   build_and_preview:
@@ -12,9 +14,7 @@ jobs:
       - run: npm i && npm run build
         working-directory: ./docs
 
-      - name: Build and Deploy
-        uses: testthedocs/github-pages-deploy-action@master
-        env:
-          ACCESS_TOKEN: ${{ secrets.TOKEN }}
-          BUILD_DIR: docs/src/.vuepress/dist
-          BUILD_SCRIPT: npm install && npm run-script build
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: docs/src/.vuepress/dist
