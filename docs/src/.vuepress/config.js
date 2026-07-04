@@ -42,16 +42,8 @@ module.exports = {
     lastUpdated: "Last Updated", // string | boolean
     nav: [
       {
-        text: "Guide",
-        link: "/guide/",
-      },
-      {
-        text: "Blogs",
-        link: "/blogs/",
-      },
-      {
-        text: "Projects",
-        link: "/projects/",
+        text: "My Writings",
+        link: "/intro.html",
       },
       {
         text: "About Me",
@@ -59,7 +51,7 @@ module.exports = {
       },
     ],
     sidebar: {
-      "/blogs/":[
+      "/": [
         {
           title: "DIY Blogs",
           collapsable: false,
@@ -68,45 +60,46 @@ module.exports = {
             "/blogs/diy-blogs/replacing-car-door-gun",
           ],
         },
+       
         {
-          title: "Tech Blogs",
+          title: "Short Stories & Poems",
           collapsable: false,
           children: [
-            "/blogs/tech-blogs/connect-asana-and-github",
-            "/blogs/tech-blogs/migrate-iit-jee-notes-to-vuepress",
-            "/blogs/tech-blogs/introduction-to-microservices",
-          ],
-        },
-      ],
-      "/guide/": [
-        {
-          title: "Hindi Stories",
-          collapsable: false,
-          children: [
-            "/guide/stories/train-ka-safar",
-            "/guide/stories/zindagi-kuch-aisi-bhi",
-            "/guide/stories/aaj-ki-duniya",
+            "/stories/train-ka-safar",
+            "/stories/zindagi-kuch-aisi-bhi",
+            "/stories/aaj-ki-duniya",
+            "/stories/expectation",
+            "/stories/chalo-chat-par-chale"
           ],
         },
         {
           title: "Hindi Shayaris",
           collapsable: false,
           children: [
-            "/guide/hindi-shayari/aakhein-aur-sharab",
+            "/hindi-shayari/aakhein-aur-sharab",
             ["https://www.ayushpgupta.com/my_hindi_shayari/","My Shayari Website"]
           ],
         },
         {
           title: "My Thoughts",
           collapsable: false,
-          children: ["/guide/thoughts/astrophile"],
+          children: ["/thoughts/astrophile"],
         },
         {
           title: "My Paintings",
           collapsable: false,
           children: [
-            "/guide/paintings/dream-bike",
-            "/guide/paintings/kid-yawning",
+            "/paintings/dream-bike",
+            "/paintings/kid-yawning",
+          ],
+        },
+         {
+          title: "Tech Blogs",
+          collapsable: false,
+          children: [
+            "/blogs/tech-blogs/connect-asana-and-github",
+            "/blogs/tech-blogs/migrate-iit-jee-notes-to-vuepress",
+            "/blogs/tech-blogs/introduction-to-microservices",
           ],
         },
       ],

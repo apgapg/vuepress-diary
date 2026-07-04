@@ -1,14 +1,14 @@
 ---
 home: true
-tagline: Tech Blogs, Diary, Short Stories and much more
+tagline: A space where software engineering, creative writing, art, and DIY passions intersect
 actionText: Know More →
-actionLink: /guide/
+actionLink: /intro.html
 features:
-- title: Flutter Developer
-  details: 4 years of Experience in Android, iOS app development. Leads a team of 8 flutter members 
-- title: VueJs (Nuxt) Developer
-  details: Expertise with Nuxt based website. Ported in ElectronJs to deployment in Kubernetes
-- title: NodeJs Developer
-  details: Knows the best practice in REST API. Loves Microservices over Monolith
+- title: Developer & Maker
+  details: Building software with Flutter, Nuxt, and Node.js. Passions extend to mechanical repairs, electronics, and fixing everyday things.
+- title: Storyteller & Poet
+  details: Writing about human nature and expectations, short stories, and soulful Hindi poetry & shayaris.
+- title: Astrophile & Artist
+  details: Fascinated by NASA space missions, astrophysics, and capturing dreams through sketching and painting.
 footer: Made by Ayush P Gupta with ❤️
 ---
