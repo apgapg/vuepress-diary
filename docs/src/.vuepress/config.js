@@ -60,6 +60,7 @@ export default defineUserConfig({
             "/stories/aaj-ki-duniya",
             "/stories/expectation",
             "/stories/chalo-chat-par-chale",
+            "/stories/lekhak",
           ],
         },
         {
