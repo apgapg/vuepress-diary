@@ -1,1 +1,3 @@
 src/.vuepress/dist/**
+src/.vuepress/.temp/
+src/.vuepress/.cache/

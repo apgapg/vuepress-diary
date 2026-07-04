@@ -9,9 +9,20 @@ jobs:
   build_and_preview:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout 📚
+        uses: actions/checkout@v4
 
-      - run: npm i && npm run build
+      - name: Setup Node 🟢
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+          cache-dependency-path: docs/package-lock.json
+
+      - name: Install and Build 🛠️
+        run: |
+          npm ci
+          npm run build
         working-directory: ./docs
 
       - name: Deploy 🚀

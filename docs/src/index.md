@@ -1,8 +1,10 @@
 ---
 home: true
 tagline: A space where software engineering, creative writing, art, and DIY passions intersect
-actionText: Know More →
-actionLink: /intro.html
+actions:
+  - text: Know More →
+    link: /intro.html
+    type: primary
 features:
 - title: Developer & Maker
   details: Building software with Flutter, Nuxt, and Node.js. Passions extend to mechanical repairs, electronics, and fixing everyday things.

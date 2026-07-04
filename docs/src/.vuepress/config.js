@@ -1,21 +1,16 @@
-const { description } = require("../../package");
+import { defineUserConfig } from "vuepress";
+import { viteBundler } from "@vuepress/bundler-vite";
+import { defaultTheme } from "@vuepress/theme-default";
+import { searchPlugin } from "@vuepress/plugin-search";
+import { seoPlugin } from "@vuepress/plugin-seo";
+import { sitemapPlugin } from "@vuepress/plugin-sitemap";
 
-module.exports = {
-  // base: "/vuepress-diary/",
-  /**
-   * Ref：https://v1.vuepress.vuejs.org/config/#title
-   */
+export default defineUserConfig({
+  bundler: viteBundler(),
+
   title: "Welcome to Ayush World",
-  /**
-   * Ref：https://v1.vuepress.vuejs.org/config/#description
-   */
-  description: description,
+  description: "Official Vuepress diary of Ayush P Gupta",
 
-  /**
-   * Extra tags to be injected to the page HTML `<head>`
-   *
-   * ref：https://v1.vuepress.vuejs.org/config/#head
-   */
   head: [
     ["meta", { name: "theme-color", content: "#3eaf7c" }],
     ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
@@ -26,21 +21,15 @@ module.exports = {
     ["meta", { name: "google-site-verification", content: "KMvqVAD_cV9Q9gOpJjkQf8RUsCMqBVPpgD2-wYJaC8s" }],
   ],
 
-  /**
-   * Theme configuration, here is the default theme configuration for VuePress.
-   *
-   * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
-   */
-  themeConfig: {
+  theme: defaultTheme({
     repo: "https://github.com/apgapg/vuepress-diary",
     repoLabel: "Contribute!",
-    editLinks: true,
+    editLink: true,
     editLinkText: "Help us improve this page!",
-    smoothScroll: true,
     docsBranch: "main",
     docsDir: "docs/src",
-    lastUpdated: "Last Updated", // string | boolean
-    nav: [
+    lastUpdated: true,
+    navbar: [
       {
         text: "My Writings",
         link: "/intro.html",
@@ -53,49 +42,51 @@ module.exports = {
     sidebar: {
       "/": [
         {
-          title: "DIY Blogs",
-          collapsable: false,
+          text: "DIY Blogs",
+          collapsible: false,
           children: [
             "/blogs/diy-blogs/speed-o-meter",
             "/blogs/diy-blogs/replacing-car-door-gun",
           ],
         },
-       
         {
-          title: "Short Stories & Poems",
-          collapsable: false,
+          text: "Short Stories & Poems",
+          collapsible: false,
           children: [
             "/stories/train-ka-safar",
             "/stories/zindagi-kuch-aisi-bhi",
             "/stories/aaj-ki-duniya",
             "/stories/expectation",
-            "/stories/chalo-chat-par-chale"
+            "/stories/chalo-chat-par-chale",
           ],
         },
         {
-          title: "Hindi Shayaris",
-          collapsable: false,
+          text: "Hindi Shayaris",
+          collapsible: false,
           children: [
             "/hindi-shayari/aakhein-aur-sharab",
-            ["https://www.ayushpgupta.com/my_hindi_shayari/","My Shayari Website"]
+            {
+              text: "My Shayari Website",
+              link: "https://www.ayushpgupta.com/my_hindi_shayari/",
+            },
           ],
         },
         {
-          title: "My Thoughts",
-          collapsable: false,
+          text: "My Thoughts",
+          collapsible: false,
           children: ["/thoughts/astrophile"],
         },
         {
-          title: "My Paintings",
-          collapsable: false,
+          text: "My Paintings",
+          collapsible: false,
           children: [
             "/paintings/dream-bike",
             "/paintings/kid-yawning",
           ],
         },
-         {
-          title: "Tech Blogs",
-          collapsable: false,
+        {
+          text: "Tech Blogs",
+          collapsible: false,
           children: [
             "/blogs/tech-blogs/connect-asana-and-github",
             "/blogs/tech-blogs/migrate-iit-jee-notes-to-vuepress",
@@ -103,31 +94,28 @@ module.exports = {
           ],
         },
       ],
-      "/projects/":[
+      "/projects/": [
         {
-          title: "Dev Projects",
-          collapsable: false,
+          text: "Dev Projects",
+          collapsible: false,
           children: [
             "/projects/dev-projects/my-hindi-shayari",
             "/projects/dev-projects/connect-it",
           ],
-        }
-      ]
+        },
+      ],
     },
-  },
+  }),
 
-  /**
-   * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
-   */
   plugins: [
-    "@vuepress/back-to-top",
-    "@vuepress/plugin-medium-zoom",
-    [
-      "sitemap",
-      {
-        hostname: "https://diary.ayushpgupta.com/",
-      },
-    ],
-    ['seo', { /* options */ }]
+    searchPlugin({
+      // options
+    }),
+    seoPlugin({
+      hostname: "https://diary.ayushpgupta.com",
+    }),
+    sitemapPlugin({
+      hostname: "https://diary.ayushpgupta.com",
+    }),
   ],
-};
+});
