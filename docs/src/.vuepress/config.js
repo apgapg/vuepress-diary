@@ -22,6 +22,8 @@ export default defineUserConfig({
   ],
 
   theme: defaultTheme({
+    colorMode: "light",
+    colorModeSwitch: false,
     repo: "https://github.com/apgapg/vuepress-diary",
     repoLabel: "Contribute!",
     editLink: true,
