@@ -13,6 +13,24 @@ Live Website: https://diary.ayushpgupta.com/
 3. Run `npm run dev`
 4. Open the localhost link as output in console.
 
+## 🖼️ Image Optimization
+
+To keep the page load times fast, you should run the image optimizer script whenever you add new high-resolution cover images or drawings to the `docs/src/.vuepress/public/` folder.
+
+### Prerequisites
+Make sure you have `Pillow` installed:
+```bash
+pip install Pillow
+```
+
+### Running the Optimizer
+Navigate to the `docs/` folder and run the script:
+```bash
+cd docs
+python3 optimize_images.py
+```
+This will automatically find any PNG images in the public folder, scale them down to a maximum width of 1200px (preserving aspect ratio) if they are too large, and apply lossless PNG compression in-place.
+
 ## 👍 Contribution
 
 1. Clone it
