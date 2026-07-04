@@ -61,6 +61,7 @@ export default defineUserConfig({
             "/stories/expectation",
             "/stories/chalo-chat-par-chale",
             "/stories/lekhak",
+            "/stories/bada-mangal",
           ],
         },
         {
