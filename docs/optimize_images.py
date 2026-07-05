@@ -5,7 +5,8 @@ public_dir = "src/.vuepress/public"
 
 for root, dirs, files in os.walk(public_dir):
     for file in files:
-        if file.lower().endswith(".png"):
+        ext = os.path.splitext(file.lower())[1]
+        if ext in [".png", ".jpg", ".jpeg"]:
             filepath = os.path.join(root, file)
             print(f"Optimizing {filepath}...")
             img = Image.open(filepath)
@@ -19,7 +20,14 @@ for root, dirs, files in os.walk(public_dir):
                 height = int((max_width / img.width) * img.height)
                 img = img.resize((max_width, height), Image.Resampling.LANCZOS)
             
-            # Save optimized PNG
-            img.save(filepath, "PNG", optimize=True)
+            # Save optimized image based on extension
+            if ext == ".png":
+                img.save(filepath, "PNG", optimize=True)
+            elif ext in [".jpg", ".jpeg"]:
+                # Convert to RGB mode if it has transparency (RGBA/LA)
+                if img.mode in ("RGBA", "LA"):
+                    img = img.convert("RGB")
+                img.save(filepath, "JPEG", optimize=True, quality=85)
+                
             new_size = os.path.getsize(filepath)
             print(f"Size reduced from {orig_size/1024/1024:.2f}MB to {new_size/1024/1024:.2f}MB ({((orig_size - new_size)/orig_size)*100:.1f}% reduction)")
