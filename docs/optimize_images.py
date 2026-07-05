@@ -1,5 +1,8 @@
 import os
-from PIL import Image
+from PIL import Image, ImageFile
+
+# Allow loading of truncated images
+ImageFile.LOAD_TRUNCATED_IMAGES = True
 
 public_dir = "src/.vuepress/public"
 
