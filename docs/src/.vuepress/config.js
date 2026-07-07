@@ -65,6 +65,8 @@ export default defineUserConfig({
             "/stories/behti-nadi",
             "/stories/rx100",
             "/stories/saath",
+            "/stories/bageecha"
+
           ],
         },
         {
