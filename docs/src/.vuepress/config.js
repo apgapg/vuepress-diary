@@ -68,6 +68,7 @@ export default defineUserConfig({
             "/stories/bageecha",
             "/stories/college",
             "/stories/khudi",
+            "/stories/neend",
           ],
         },
         {
