@@ -70,6 +70,7 @@ export default defineUserConfig({
             "/stories/khudi",
             "/stories/neend",
             "/stories/taala-chabi",
+            "/stories/pocket"
           ],
         },
         {
