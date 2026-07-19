@@ -71,7 +71,9 @@ export default defineUserConfig({
             "/stories/neend",
             "/stories/taala-chabi",
             "/stories/pocket",
-            "/stories/floor"
+            "/stories/floor",
+            "/stories/patri",
+            "/stories/shraddha",
           ],
         },
         {
