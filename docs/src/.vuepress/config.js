@@ -53,8 +53,10 @@ export default defineUserConfig({
         },
         {
           text: "Short Stories & Poems",
+          link: "/stories/",
           collapsible: false,
           children: [
+            "/stories/",
             "/stories/train-ka-safar",
             "/stories/zindagi-kuch-aisi-bhi",
             "/stories/aaj-ki-duniya",

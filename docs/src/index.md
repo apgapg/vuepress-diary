@@ -5,6 +5,9 @@ actions:
   - text: Know More →
     link: /intro.html
     type: primary
+  - text: My Writings →
+    link: /stories/
+    type: secondary
 features:
 - title: Developer & Maker
   details: Building software with Flutter, Nuxt, and Node.js. Passions extend to mechanical repairs, electronics, and fixing everyday things.
