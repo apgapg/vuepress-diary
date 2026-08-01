@@ -76,6 +76,8 @@ export default defineUserConfig({
             "/stories/floor",
             "/stories/patri",
             "/stories/shraddha",
+            "/stories/soch-liya",
+            "/stories/na-sahi",
           ],
         },
         {
