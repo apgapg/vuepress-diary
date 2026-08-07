@@ -78,6 +78,11 @@ export default defineUserConfig({
             "/stories/shraddha",
             "/stories/soch-liya",
             "/stories/na-sahi",
+            "/stories/dost",
+            "/stories/haar-gya",
+            "/stories/chaand-par-chalo",
+            "/stories/gussa",
+            "/stories/masuri",
           ],
         },
         {
