@@ -83,6 +83,7 @@ export default defineUserConfig({
             "/stories/chaand-par-chalo",
             "/stories/gussa",
             "/stories/masuri",
+            "/stories/peepal",
           ],
         },
         {
