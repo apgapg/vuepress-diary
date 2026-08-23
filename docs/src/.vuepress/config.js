@@ -85,6 +85,7 @@ export default defineUserConfig({
             "/stories/masuri",
             "/stories/peepal",
             "/stories/dada",
+            "/stories/hazratganj-ki-sawari",
           ],
         },
         {
