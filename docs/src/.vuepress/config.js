@@ -18,7 +18,13 @@ export default defineUserConfig({
       "meta",
       { name: "apple-mobile-web-app-status-bar-style", content: "black" },
     ],
-    ["meta", { name: "google-site-verification", content: "KMvqVAD_cV9Q9gOpJjkQf8RUsCMqBVPpgD2-wYJaC8s" }],
+    [
+      "meta",
+      {
+        name: "google-site-verification",
+        content: "KMvqVAD_cV9Q9gOpJjkQf8RUsCMqBVPpgD2-wYJaC8s",
+      },
+    ],
   ],
 
   theme: defaultTheme({
@@ -85,6 +91,11 @@ export default defineUserConfig({
             "/stories/masuri",
             "/stories/peepal",
             "/stories/dada",
+            "/stories/aakhir-kahan-ho-tum",
+            "/stories/bachpan-ki-gadi",
+            "/stories/chai-peene-chalte-hai",
+            "/stories/maa-tum",
+            "/stories/marne-ke-baad",
             "/stories/hazratganj-ki-sawari",
           ],
         },
@@ -107,10 +118,7 @@ export default defineUserConfig({
         {
           text: "My Paintings",
           collapsible: false,
-          children: [
-            "/paintings/dream-bike",
-            "/paintings/kid-yawning",
-          ],
+          children: ["/paintings/dream-bike", "/paintings/kid-yawning"],
         },
         {
           text: "Tech Blogs",
