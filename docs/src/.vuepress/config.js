@@ -97,7 +97,8 @@ export default defineUserConfig({
             "/stories/maa-tum",
             "/stories/marne-ke-baad",
             "/stories/hazratganj-ki-sawari",
-            "/stories/bike-ek-atmkatha"
+            "/stories/bike-ek-atmkatha",
+            "/stories/baksa"
           ],
         },
         {

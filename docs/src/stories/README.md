@@ -39,5 +39,6 @@
 33. [मैंने मरने के बाद देखा](./marne-ke-baad.md)
 34. [हजरतगंज की सवारी](./hazratganj-ki-sawari.md)
 35. [बाइक : एक आत्मकथा](./bike-ek-atmkatha.md)
+36. [बक्सा](./baksa.md)
 
 Follow on Instagram: [hindi_by_up_board_guy](https://www.instagram.com/hindi_by_up_board_guy/)
