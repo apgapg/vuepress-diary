@@ -33,3 +33,7 @@
 
 **Ayush P Gupta**  
 _14 Aug 2018_
+
+Read more stories: [https://diary.ayushpgupta.com/stories/](https://diary.ayushpgupta.com/stories/)  
+
+Follow on Instagram: [hindi_by_up_board_guy](https://www.instagram.com/hindi_by_up_board_guy/)
