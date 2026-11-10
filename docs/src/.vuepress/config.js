@@ -98,7 +98,8 @@ export default defineUserConfig({
             "/stories/marne-ke-baad",
             "/stories/hazratganj-ki-sawari",
             "/stories/bike-ek-atmkatha",
-            "/stories/baksa"
+            "/stories/baksa",
+            "/stories/diwali",
           ],
         },
         {
